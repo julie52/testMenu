@@ -1,0 +1,180 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+th{
+  width: 64px;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+p{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+label{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+#titre{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+#map {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+#btn{
+  cursor: pointer;
+}
+.portrait{
+  width: 200px;
+}
+.petitesImages{
+  width: 80px;
+  margin: 8px;
+}
+.grandeDiv{
+  display: flex;
+}
+.petiteDivDroite{
+  flex-direction: column;
+}
+.textePresentation{
+  position: relative;
+  bottom: 24px;
+  text-align: justify;
+  font-family: 'Roboto', sans-serif;
+}
+
+#accueil{
+	display:flex;
+	justify-content: center;
+}
+#Menuderoulant{
+	display: flex;
+	flex-direction: column;
+	width:300px;
+	height: auto;
+	align-items:flex-start;
+	margin-top: 10%;
+}
+#titre{
+	color:white;
+}
+.blocentete{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  background-color: #f0673e;
+  border: 0.5px solid white;
+  font-family: 'Roboto', sans-serif;
+}
+.titrebloc{
+  width:90%;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+.blocContenu{
+  background-color: rgba(125, 55, 31, 0.4);
+}
+.btnDroit{
+	width:50px;
+	height:50px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	cursor: pointer;
+	transform:scale(1,1);
+	transition:0.8s ;
+}
+.btnDroit:hover{
+	border-radius: 25%;
+	box-shadow:  0px 1px 1px 1px white;
+	transform: scale(1.2,1.2) rotateY(360deg);
+}
+.blocbtn{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+}
+#btn-1{
+	cursor: pointer;
+	font-size: 20px;
+	color:#3d2f0e;
+  font-family: 'Roboto', sans-serif;
+}
+#btn-2{
+	cursor: pointer;
+	font-size: 20px;
+	color:#3d2f0e;
+  font-family: 'Roboto', sans-serif;
+}
+#btn-3{
+	cursor: pointer;
+	font-size: 20px;
+	color:#3d2f0e;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Slider */
+      .fix{overflow:hidden}
+      .slider{border: 1px solid #DDDDDD;padding: 10px;border-radius:5px;}
+      .pgwSlider {width: 640px;}
+      .pgwSlider .ps-current {float: left;width: 74%;overflow: hidden;height: inherit;position: relative;}
+      .pgwSlider .ps-current img {max-width: 100%;min-width: 100%;height: auto;display: block;}
+      ul.pgwSlider, .pgwSlider > ul {float: right; width: 25%;padding: 0;list-style: none; margin: 0;}
+      ul.pgwSlider > li, .pgwSlider > ul > li {height: 50px;margin-bottom: 6px;overflow: hidden; position: relative;opacity: 0.6;filter: alpha(opacity=60);}
+      ul.pgwSlider > li:last-child, .pgwSlider > ul > li:last-child {margin-bottom: 0;}
+      ul.pgwSlider > li:hover, .pgwSlider > ul > li:hover {opacity: 1 !important;}
+      ul.pgwSlider > li img, .pgwSlider > ul > li img {width: 100%;min-height: 100%; display: block; cursor: pointer;}
+      @media (max-width: 480px) {
+        .pgwSlider .ps-current {margin-bottom: 6px;}
+        .pgwSlider .ps-current img {width: 100%;min-height: inherit;}
+        .pgwSlider .ps-current,ul.pgwSlider,.pgwSlider > ul { width: 100%;}
+        ul.pgwSlider > li, .pgwSlider > ul > li {float: left;min-height: 50px;max-height: 70px; min-width: 20%;}
+      }
+      @media (min-width: 481px) {
+        ul.pgwSlider > li, .pgwSlider > ul > li { width: 100% !important;}
+      }
+/*style de la popup*/
+      .leaflet-popup-content-wrapper, .leaflet-popup-tip {	background-color: #E5F1C1;}
+      .leaflet-popup-content h2 {color: #3EBCEE;}
+
+  .popup {
+      text-align: center;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    .popup .slideshow .image {
+      display: none;
+    }
+
+    .popup .slideshow .image.active {
+      display: block;
+    }
+
+    .popup .slideshow img {
+      width: 100%;
+    }
+
+    .popup .slideshow .caption {
+      background-color: #f0673e;
+      color: white;
+      padding: 10px;
+    }
+
+    .popup .cycle {
+      padding: 10px 0 20px;
+    }
+
+    .popup .cycle a.prev {
+      float: left;
+    }
+
+    .popup .cycle a.next {
+      float: right;
+    }
